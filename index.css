@@ -1,0 +1,125 @@
+body {
+    background-color: #1B1924;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#img-title {
+    text-align: center;
+    height: 200px;
+}
+
+img {
+    margin-top: 20px;
+    max-height: 100%;
+}
+
+h1 {
+    color: whitesmoke;
+    margin: 10px 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 70px auto 0;
+    
+}
+
+#from-to-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#from-to-container input {
+    height: 10px;
+    width: 48%;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#endorsement-el, #from-el, #to-el {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #444059;
+    border: 2px solid rgb(245, 154, 154);
+}
+
+#publish-btn {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #28A9F1;
+    border: none;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.like-btn {
+    background-color: #28A9F1;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+::placeholder {
+    text-align: center; 
+ }
+ 
+ h2 {
+    text-align: center;
+    color: whitesmoke;
+ }
+
+ .new-Endorsements {
+    width: 400px;
+    font-weight: bolder;
+    padding: 20px;
+    position: relative
+}
+
+.like-div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center
+}
+
+.like-btn {
+    background-color: whitesmoke;
+    font-size: 25px;
+    border: none;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.like-count {
+    font-size: 18px;
+}
+
+#ul-el {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0; 
+}
+
+li {
+    list-style: none;
+    background-color: whitesmoke;
+    padding: 5px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
